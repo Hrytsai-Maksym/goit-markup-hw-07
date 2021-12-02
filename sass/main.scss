@@ -1,4 +1,2 @@
-body{
-    color: aqua;
-    border: 1px solid #FFFF;
-}
+@import "./utils/variables";
+@import "./utils/_containers";

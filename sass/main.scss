@@ -1,2 +1,12 @@
 @import "./utils/variables";
-@import "./utils/_containers";
+@import "./container/containers";
+@import "./index-styles/header";
+@import "./utils/normalizing";
+@import "./body/body";
+@import "./index-styles/logo";
+@import "./index-styles/section-advantages";
+@import "./index-styles/section-hero";
+@import "./index-styles/section-our-team";
+@import "./index-styles/section-our-work";
+@import "./index-styles/section-regular-customers";
+@import "./utils/normalizing";

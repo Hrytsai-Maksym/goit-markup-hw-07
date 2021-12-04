@@ -74,8 +74,11 @@ height: 18px;
 transform: translate(26%, 22% );
 transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.closet-svg:focus,
+.closet-svg:active,
 .closet-svg:hover{
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .span-label{
   display: block;
@@ -207,8 +210,8 @@ margin-right: auto;
 } */
 .input-modal:focus+.maodal-svg,
 .input-modal:hover+.maodal-svg {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: $accent-color;
+  fill: $accent-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), left 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* left: 95%; */
   /* transition: left 250ms cubic-bezier(0.4, 0, 0.2, 1) */
@@ -253,11 +256,18 @@ margin-top: 4px;
 /* margin-bottom: 10px; */
 transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
 }
 .input-modal:active,
 .input-modal:hover,
 .input-modal:focus{
-  border-color: var(--accent-color);
+  border-color: $accent-color;
+
+  // & +.maodal-svg :hover,
+  // & +.maodal-svg :focus,
+  // & +.maodal-svg :active{
+  //   fill: $accent-color ;
+  // }
     
 }
 .input-modal-coment{
@@ -275,7 +285,7 @@ transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .input-modal-coment:active,
 .input-modal-coment:hover,
 .input-modal-coment:focus{
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 
 }
 .maodal-svg{
@@ -296,14 +306,14 @@ transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-color: var(--button-background);
+  background-color: $button-background;
 }
 .form-grup-checkbox{
   position: relative;
 }
 .rel{
   position: relative;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .modal-name{
   position: relative;
@@ -334,8 +344,8 @@ transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    background-image: url(../image/icon\ check.svg */
  }
   .checkbox-modal:checked~.span-checkbox{
-   background-color: var(--accent-color);
-  //  background-image: url(../image/icon\ check.svg);
+   background-color: $accent-color;
+  //  background-image: url(../../image/icon\ check.svg);
    background-size: contain;
    background-origin: content-box;
    border-color: $accent-color;

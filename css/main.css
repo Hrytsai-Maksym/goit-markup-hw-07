@@ -848,6 +848,10 @@ p {
   fill: #2196f3;
 }
 
+.section-our-team {
+  background: #f5f4fa;
+}
+
 .section-our-team__title {
   font-weight: 700;
   font-size: 36px;
@@ -858,7 +862,6 @@ p {
   margin-top: 0px;
   margin-bottom: 50px;
   background: #f5f4fa;
-  padding-bottom: 94px;
   padding-top: 94px;
 }
 
@@ -895,7 +898,11 @@ p {
 }
 
 .section-our-team__item {
-  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.section-our-team__item-a {
+  margin-right: 0px;
 }
 
 .section-our-team__text-spetikatoon {
@@ -908,13 +915,12 @@ p {
 }
 
 .section-our-team__spetifikation {
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding: 30px 32px;
 }
 
 .section-our-team__photo {
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   margin-right: 0px;
 }
 
@@ -1065,6 +1071,11 @@ p {
 }
 
 .regular-customers__item {
+  border: 1px solid #AFB1B8;
+  fill: #AFB1B8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
@@ -1089,9 +1100,9 @@ p {
   display: block;
   width: 170px;
   height: 92px;
-  fill: var(--color-sprite);
-  border: 1px solid var(--color-of-the-costumers);
-  background-color: var(--background-cilir);
+  fill: #afb1b8;
+  border: 1px solid #AFB1B8;
+  background-color: #ffffff;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;

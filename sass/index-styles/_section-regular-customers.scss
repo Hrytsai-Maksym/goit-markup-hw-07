@@ -22,6 +22,10 @@
     }
 
 .regular-customers__item{
+    border: 1px solid $color-of-the-costumers;
+    fill:$color-of-the-costumers ;
+box-sizing: border-box;
+border-radius: 4px;
     transition-property:color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,9 +47,9 @@
     display: block;
     width: 170px;
 height: 92px;
-    fill: var(--color-sprite);
-    border: 1px solid var(--color-of-the-costumers);
-    background-color: var(--background-cilir);
+    fill: $color-sprite;
+    border: 1px solid $color-of-the-costumers;
+    background-color: $button-text-color;
 
     transition-property:fill;
     transition-duration: 250ms;

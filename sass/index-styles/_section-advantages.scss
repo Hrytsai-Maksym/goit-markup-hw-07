@@ -27,12 +27,13 @@
     }
 
 .section-advantages__div{
+
     display: flex;  
     justify-content: center;
     align-items: center;
     width: 270px;
     height: 120px;
-    background-color:var(--backgroun-color-images) ;
+    background-color:$backgroun-color-images ;
     border-radius: 4px;
     }
 

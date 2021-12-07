@@ -1,5 +1,6 @@
 
 .header{
+  
     
     background: #ffffff;
     color: $prymery-text-color;
@@ -61,20 +62,24 @@
     }
 
 .navigation-list__link{
-    padding: 32px 0;
+    padding: 0px ;
     display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
     }
 
     
 
     .header-contakts__list{
+        margin-bottom: 0px;
+        margin-top: 0px;
         fill: $color-command-post;
         margin-right: 50px;
         display: flex;
 
         align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    // margin-top: 32px;
+    // margin-bottom: 32px;
     margin-left: auto;
         
         & :hover,

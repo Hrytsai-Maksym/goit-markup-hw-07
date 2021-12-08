@@ -1886,10 +1886,12 @@ padding: 0px; */
 
 .checkbox-modal:checked ~ .span-checkbox {
   background-color: #2196f3;
-  background-image: url(../../image/icon/check-blue.svg);
+  background-image: url(../../image/Vector-check.svg);
   background-size: contain;
   background-origin: content-box;
   border-color: #2196f3;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section__filter-button {

@@ -342,14 +342,26 @@ transition:  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    /* background-color: var(--accent-color);
    background-image: url(../image/icon\ check.svg */
  }
-  .checkbox-modal:checked~.span-checkbox{
-   background-color: $accent-color;
-   background-image: url(../../image/icon/check-blue.svg);
-  //  background-image: url(../../image/icon\ check.svg);
-   background-size: contain;
-   background-origin: content-box;
-   border-color: $accent-color;
-    }
+  // .checkbox-modal:checked~ .span-checkbox{
+  //  background-color: $accent-color;
+  //  background-image: url(../../image/Vector-check.svg);
+  // //  background-image: url(../../image/icon\ check.svg);
+  //  background-size: contain;
+  //  background-origin: content-box;
+  //  border-color: $accent-color;
+  //  background-repeat: no-repeat;
+  //  background-position: center;
+  //   }
+  .checkbox-modal:checked ~ .span-checkbox {
+    background-color: $accent-color;
+    background-image: url(../../image/Vector-check.svg);
+    //  background-image: url(../../image/icon\ check.svg);
+    background-size: contain;
+    background-origin: content-box;
+    border-color: $accent-color;
+    background-repeat: no-repeat;
+    background-position: center;
+}
  
 
 
